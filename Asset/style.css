@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none; 
+    outline: none;
+    text-decoration: none;
+    font-weight: 400;
+   
+}
+
+
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header{
+    background-color: #000;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    color: rgb(214, 167, 95);
+}
+
+.navbar ul li a::before{
+    content: '';
+    width: 0;
+    height: 5px;
+    position: relative;
+    bottom: -40px;
+    display: block;
+    left:0;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover::before{
+    content: '';
+    width: 100%;
+    height: 5px;
+    position: relative;
+    bottom: -40px;
+    display: block;
+    background-color: white;
+    left:0 ;
+}
+
+
+/* ---------banner------- */
+
+.banner{
+    background-image: url(img/back-1.jpg);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .content{
+    background-image: 5px solid rgb(214, 205, 205);
+}
+
+
+.banner h1{
+    color: white;
+    align-items: center;    
+    padding-top: 20vh;
+    text-transform: uppercase;
+    line-height: 6rem;
+    font-size: 4rem;
+}
+
+.banner .btn{
+    color: white;
+    background-color: rgb(88, 57, 15);
+    outline: none !important;
+    border: none;
+    transition: 0.5s;
+}
+
+.banner .btn:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    
+}
+
+.banner .its{
+    color: rgb(112, 78, 30);
+}
+
+
+/* -------Services-------- */
+#Services{
+    background-color: rgb(202, 202, 200);
+    height: auto;
+}
+#Services .head{
+    color: rgb(88, 57, 15);
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#Services .content h2{
+    color: rgb(185, 135, 60);
+    font-weight: 800;
+   
+}
+#Services .content p{
+    color: #000;
+    width: 80%;
+    font-weight: 450;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+#Services .imag{
+   width: 100%;
+  
+  
+}
+
+#Services .imag img{
+
+   width: 100%;
+   height: 60vh;
+    border-radius: 20%;
+    box-sizing: border-box;
+    cursor: pointer; 
+   
+    transition: 0.5s;
+}
+#Services .imag img:hover{
+    transform: scale(1.1);
+}
+
+.Facilities .box{
+    overflow: hidden;
+   
+}
+.Facilities .box-1{
+ 
+    height: 300px;
+  
+   
+}
+
+.Facilities .main h1{
+    color: rgb(88, 57, 15);
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Facilities .box img:hover{
+transform: scale(1.1);
+}
+.Facilities .box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border: 0.5px solid #000;
+    border-radius: 2rem;
+  
+}
+.review{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/home-img.jpeg);
+
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+   
+    
+}
+.review .main h1{
+    color: rgb(88, 57, 15);
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.review .hit{
+  padding-bottom:5rem ;
+}
+.review .card{
+    padding: 8px 0 8px 0 ;
+   
+    text-align: center; 
+    
+}
+.review .card-body .imgg img{
+  height: 80px;
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: -60px;
+  border-radius: 50px;
+  
+}
+.box-z .card .cofeee {
+   
+    text-align: center  ;
+   
+}
+.box-z .card .cofeee img{
+    height: 12rem;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/* #Services .head::before{
+    content: '';
+    width: 20%;
+    height: 5px;
+    position: relative;
+    bottom: -50px;
+    display: block;
+    transition: 0.5s;
+    background-color: lightcoral;
+    text-align: center; 
+    
+}
+
+#Services .head:hover::before{
+    content: '';
+    width: 10%;
+    height: 5px;
+    position: relative;
+    bottom: -40px;
+    display: block;
+    background-color: rgb(216, 41, 41);
+    left:0 ;
+} */
